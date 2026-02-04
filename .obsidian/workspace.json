@@ -24,10 +24,14 @@
             "id": "5262f21e4c2585b2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Attacking Services Cheatsheet.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Attacking Services Cheatsheet"
             }
           }
         ],
@@ -182,9 +186,12 @@
   },
   "active": "5262f21e4c2585b2",
   "lastOpenFiles": [
-    "6 - Main Notes/Untitled.base",
     "6 - Main Notes/Untitled.md",
+    "6 - Main Notes/Attacking Services Cheatsheet.md",
     "6 - Main Notes/Attacking FTP.md",
+    "6 - Main Notes/Antak Webshell.md",
+    "6 - Main Notes/Post-Engagement.md",
+    "6 - Main Notes/Untitled.base",
     "6 - Main Notes/NEW FTP RESOURCE.md",
     "3 - Tags/ftp.md",
     "6 - Main Notes/Windows Remote Management Protocols.md",
@@ -192,7 +199,6 @@
     "6 - Main Notes/Bind Shells.md",
     "6 - Main Notes/Basic Tools Cheatsheet.md",
     "6 - Main Notes/Public Exploits.md",
-    "6 - Main Notes/Antak Webshell.md",
     "6 - Main Notes/fi.md",
     "sss.md",
     "5 - Templates/Full Note.md",
@@ -209,7 +215,6 @@
     "2 - Resources/2 - Resources/YouTube Channels.md",
     "2 - Resources/2 - Resources/Other Cybersecurity resources.md",
     "2 - Resources/2 - Resources/Interesting Online Tools.md",
-    "2 - Resources/2 - Resources/Github Tools.md",
     "2 - Resources/2 - Resources",
     "2 - Resources",
     "cpts role path-20260204T115218Z-3-001/cpts role path",
