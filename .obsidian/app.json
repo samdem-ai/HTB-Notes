@@ -1,4 +1,6 @@
 {
   "newFileLocation": "folder",
-  "newFileFolderPath": "6 - Main Notes"
+  "newFileFolderPath": "6 - Main Notes",
+  "showLineNumber": false,
+  "readableLineLength": true
 }

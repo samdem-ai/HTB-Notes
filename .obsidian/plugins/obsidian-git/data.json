@@ -4,7 +4,7 @@
   "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 5,
-  "autoPushInterval": 0,
+  "autoPushInterval": 6,
   "autoPullInterval": 0,
   "autoPullOnBoot": false,
   "autoCommitOnlyStaged": false,
@@ -19,7 +19,7 @@
   "syncMethod": "merge",
   "mergeStrategy": "none",
   "customMessageOnAutoBackup": false,
-  "autoBackupAfterFileChange": false,
+  "autoBackupAfterFileChange": true,
   "treeStructure": false,
   "refreshSourceControl": true,
   "basePath": "",
@@ -41,7 +41,7 @@
     "statusBar": "disabled"
   },
   "lineAuthor": {
-    "show": true,
+    "show": false,
     "followMovement": "inactive",
     "authorDisplay": "initials",
     "showCommitHash": false,
