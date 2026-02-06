@@ -3,7 +3,7 @@
 
 Status:
 
-Tags: [[windows]],[[payloads]]
+Tags: [[1 - Rough notes/windows]],[[payloads]]
 
 
 # Infiltrating Windows

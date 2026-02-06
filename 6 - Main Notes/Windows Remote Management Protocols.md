@@ -3,7 +3,7 @@
 
 Status:
 
-Tags: [[footprinting]],[[windows]]
+Tags: [[footprinting]],[[1 - Rough notes/windows]]
 
 
 # Windows Remote Management Protocols

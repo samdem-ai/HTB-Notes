@@ -3,7 +3,7 @@
 
 Status:
 
-Tags: [[windows]],
+Tags: [[1 - Rough notes/windows]],
 
 
 # Windows Security Fundamuntals
