@@ -54,12 +54,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Crafting Payloads with MSFvenom.md",
+                "file": "6 - Main Notes/Windows Command Line Cheatsheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Crafting Payloads with MSFvenom"
+              "title": "Windows Command Line Cheatsheet"
             }
           }
         ],
@@ -95,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hidden file",
+                "query": "where",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -215,6 +215,7 @@
   },
   "active": "7e95d8ff426a52f5",
   "lastOpenFiles": [
+    "6 - Main Notes/Crafting Payloads with MSFvenom.md",
     "6 - Main Notes/Windows Command Line Cheatsheet.md",
     "3 - Tags/cli.md",
     "6 - Main Notes/Windows Security Fundamuntals.md",
@@ -241,7 +242,6 @@
     "2 - Resources/Blogs.md",
     "2 - Resources/Github Tools.md",
     "6 - Main Notes/Firewall and IDS IPS Evasion.md",
-    "cpts role path/HTB ACADEMY.md",
     "cpts role path/cpts role path",
     "cpts role path",
     "2 - Resources/2 - Resources",

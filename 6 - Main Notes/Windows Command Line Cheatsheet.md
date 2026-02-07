@@ -140,16 +140,16 @@ Tags: [[windows]],[[cli]],[[cheatsheet]]
 
 ### PowerShell Commands
 
-|Command|Description|
-|---|---|
-|`Get-Item|Get-Member`|
-|`Get-Item|Select-Object -Property *`|
-|`Get-Item *|Select-Object -Property Name,PasswordLastSet`|
-|`Get-Item *|Sort-Object -Property Name|
-|`Get-ChildItem -Path C:\Users\MTanaka\ -File -Recurse`|List all File objects in the directory specified.|
-|`Get-ChildItem -Path C:\Users\MTanaka\ -File -Recurse -ErrorAction SilentlyContinue|Where-Object {($_.Name -like "*.txt")}`|
-|`Get-ChildItem –Path C:\Users\MTanaka\ -File -Recurse -ErrorAction SilentlyContinue|Where-Object {($_.Name -like "*.txt" -or $_.Name -like "_.py" -or $_.Name -like "_.ps1" -or $_.Name -like "*.md" -or $_.Name -like "*.csv")}`|
-|`Get-ChildItem -Path C:\Users\MTanaka\ -Filter "*.txt" -Recurse -File|Select-String "Password","credential","key"`|
+| Command                                                                             | Description                                                                                                                                   |
+| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Get-Item                                                                           | Get-Member`                                                                                                                                   |
+| `Get-Item                                                                           | Select-Object -Property *`                                                                                                                    |
+| `Get-Item *                                                                         | Select-Object -Property Name,PasswordLastSet`                                                                                                 |
+| `Get-Item *                                                                         | Sort-Object -Property Name                                                                                                                    |
+| `Get-ChildItem -Path C:\Users\MTanaka\ -File -Recurse`                              | List all File objects in the directory specified.                                                                                             |
+| `Get-ChildItem -Path C:\Users\MTanaka\ -File -Recurse -ErrorAction SilentlyContinue | Where-Object {($_.Name -like "*.txt")}`                                                                                                       |
+| `Get-ChildItem –Path C:\Users\MTanaka\ -File -Recurse -ErrorAction SilentlyContinue | Where-Object {($_.Name -like "*.txt" -or $_.Name -like "_.py" -or $_.Name -like "_.ps1" -or $_.Name -like "*.md" -or $_.Name -like "*.csv")}` |
+| `Get-ChildItem -Path C:\Users\MTanaka\ -Filter "*.txt" -Recurse -File               | Select-String "Password","credential","key"`                                                                                                  |
 
 ## User Commands
 
