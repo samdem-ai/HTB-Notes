@@ -12,6 +12,7 @@
 -  https://devhints.io/
 - https://habr.com/ru/feed/ (ru reddit)
 -  https://book.hacktricks.wiki/en
+- https://www.agalera.eu/docs/Hacking/HTB%20Academy/Pentest%20In%20a%20Nutshell
 
 
 ## ways to get an rce from lfi in php:
