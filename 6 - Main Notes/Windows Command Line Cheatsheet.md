@@ -140,16 +140,17 @@ Tags: [[windows]],[[cli]],[[cheatsheet]]
 
 ### PowerShell Commands
 
-| Command                                                                             | Description                                                                                                                                   |
-| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Get-Item                                                                           | Get-Member`                                                                                                                                   |
-| `Get-Item                                                                           | Select-Object -Property *`                                                                                                                    |
-| `Get-Item *                                                                         | Select-Object -Property Name,PasswordLastSet`                                                                                                 |
-| `Get-Item *                                                                         | Sort-Object -Property Name                                                                                                                    |
-| `Get-ChildItem -Path C:\Users\MTanaka\ -File -Recurse`                              | List all File objects in the directory specified.                                                                                             |
-| `Get-ChildItem -Path C:\Users\MTanaka\ -File -Recurse -ErrorAction SilentlyContinue | Where-Object {($_.Name -like "*.txt")}`                                                                                                       |
-| `Get-ChildItem –Path C:\Users\MTanaka\ -File -Recurse -ErrorAction SilentlyContinue | Where-Object {($_.Name -like "*.txt" -or $_.Name -like "_.py" -or $_.Name -like "_.ps1" -or $_.Name -like "*.md" -or $_.Name -like "*.csv")}` |
-| `Get-ChildItem -Path C:\Users\MTanaka\ -Filter "*.txt" -Recurse -File               | Select-String "Password","credential","key"`                                                                                                  |
+| Command                                                                              | Description                                                                                                                                   |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Get-Item`                                                                           | Get-Member`                                                                                                                                   |
+| `Get-Item`                                                                           | Select-Object -Property *`                                                                                                                    |
+| `Get-Item *`                                                                         | Select-Object -Property Name,PasswordLastSet`                                                                                                 |
+| `Get-Item *`                                                                         | Sort-Object -Property Name                                                                                                                    |
+| `Get-ChildItem -Path C:\Users\MTanaka\ -File -Recurse`                               | List all File objects in the directory specified.                                                                                             |
+| `Get-ChildItem -Path C:\Users\MTanaka\ -File -Recurse -ErrorAction SilentlyContinue` | Where-Object {($_.Name -like "*.txt")}`                                                                                                       |
+| `Get-ChildItem –Path C:\Users\MTanaka\ -File -Recurse -ErrorAction SilentlyContinue` | Where-Object {($_.Name -like "*.txt" -or $_.Name -like "_.py" -or $_.Name -like "_.ps1" -or $_.Name -like "*.md" -or $_.Name -like "*.csv")}` |
+| `Get-ChildItem -Path C:\Users\MTanaka\ -Filter "*.txt" -Recurse -File`               | Select-String "Password","credential","key"`                                                                                                  |
+| `Get-Member`                                                                         | to get all members of an object like properties and methods.                                                                                  |
 
 ## User Commands
 
@@ -253,17 +254,17 @@ Tags: [[windows]],[[cli]],[[cheatsheet]]
 
 ### PowerShell Commands
 
-|Command|Description|
-|---|---|
-|`Get-Service`|List all services.|
-|`Get-Service|Format-Table DisplayName,Status`|
-|`Get-Service|Where-Object DisplayName -like '_Name_'|
-|`Start-Service <service-name>`|Start a service by name.|
-|`Stop-Service <service-name>`|Stop a service by name.|
-|`Set-Service -Name <service-name> -StartType Disabled`|Change settings of the service specified.|
-|`Get-Service -ComputerName ACADEMY-ICL-DC`|Remote query of a hosts services.|
-|`Get-Service -ComputerName ACADEMY-ICL-DC|Where-Object {$_.Status -eq "Running"}`|
-|`Invoke-Command -ComputerName ACADEMY-ICL-DC,LOCALHOST -ScriptBlock {Get-Service -Name 'windefend'}`|Issue the Get-Service command on a list of hosts.|
+| Command                                                                                              | Description                                       |
+| ---------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| `Get-Service`                                                                                        | List all services.                                |
+| `Get-Service                                                                                         | Format-Table DisplayName,Status`                  |
+| `Get-Service                                                                                         | Where-Object DisplayName -like '_Name_'           |
+| `Start-Service <service-name>`                                                                       | Start a service by name.                          |
+| `Stop-Service <service-name>`                                                                        | Stop a service by name.                           |
+| `Set-Service -Name <service-name> -StartType Disabled`                                               | Change settings of the service specified.         |
+| `Get-Service -ComputerName ACADEMY-ICL-DC`                                                           | Remote query of a hosts services.                 |
+| `Get-Service -ComputerName ACADEMY-ICL-DC                                                            | Where-Object {$_.Status -eq "Running"}`           |
+| `Invoke-Command -ComputerName ACADEMY-ICL-DC,LOCALHOST -ScriptBlock {Get-Service -Name 'windefend'}` | Issue the Get-Service command on a list of hosts. |
 
 ## Scheduled Tasks
 
@@ -290,15 +291,15 @@ Tags: [[windows]],[[cli]],[[cheatsheet]]
 
 ## Event Log
 
-|Command|Description|
-|---|---|
-|`wevtutil el`|Uses the Windows Events Commandline utility to enumerate all log sources.|
-|`wevtutil gl "name"`|Will gather config information about the log specified.|
-|`wevtutil qe <logname> /c:5 /rd:true /f:text`|Query a log for events.|
-|`wevtutil epl <logname> C:\system_export.evtx`|Export a Log.|
-|`Get-WinEvent -ListLog *`|List all logging facilities using PowerShell cmdlets.|
-|`Get-WinEvent -LogName 'Name' -MaxEvents 5|Select-Object -ExpandProperty Message`|
-|`Get-WinEvent -FilterHashTable @{LogName='Security';ID='4625'}`|Query for a specific log by eventID.|
+| Command                                                         | Description                                                               |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| `wevtutil el`                                                   | Uses the Windows Events Commandline utility to enumerate all log sources. |
+| `wevtutil gl "name"`                                            | Will gather config information about the log specified.                   |
+| `wevtutil qe <logname> /c:5 /rd:true /f:text`                   | Query a log for events.                                                   |
+| `wevtutil epl <logname> C:\system_export.evtx`                  | Export a Log.                                                             |
+| `Get-WinEvent -ListLog *`                                       | List all logging facilities using PowerShell cmdlets.                     |
+| `Get-WinEvent -LogName 'Name' -MaxEvents 5                      | Select-Object -ExpandProperty Message`                                    |
+| `Get-WinEvent -FilterHashTable @{LogName='Security';ID='4625'}` | Query for a specific log by eventID.                                      |
 
 ## Windows Registry
 
