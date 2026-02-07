@@ -3,7 +3,7 @@
 
 Status:
 
-Tags: [[windows]],[[cli]]
+Tags: [[windows]],[[cli]],[[cheatsheet]]
 
 
 # Windows Command Line Cheatsheet
