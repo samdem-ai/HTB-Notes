@@ -57,9 +57,33 @@
               "icon": "lucide-file",
               "title": "Example of an incident Analysis and response report"
             }
+          },
+          {
+            "id": "d6740b6cb0d6fcbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Windows Event Logs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Windows Event Logs"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -180,13 +204,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Example of an incident Analysis and response report.md",
+                "file": "6 - Main Notes/Windows Event Logs.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Example of an incident Analysis and response report"
+              "title": "Outline of Windows Event Logs"
             }
           }
         ],
@@ -208,12 +232,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "3bb6e8140077cdc8",
+  "active": "d6740b6cb0d6fcbe",
   "lastOpenFiles": [
+    "6 - Main Notes/Example of an incident Analysis and response report.md",
+    "6 - Main Notes/Windows Event Logs.md",
     "6 - Main Notes/Example Report (Simple linux).md",
     "6 - Main Notes/Enumeration Methodology.md",
     "3 - Tags/soc.md",
-    "6 - Main Notes/Example of an incident Analysis and response report.md",
     "3 - Tags/incident-reponse.md",
     "6 - Main Notes/Protected File Transfers.md",
     "6 - Main Notes/Untitled.md",
@@ -236,7 +261,6 @@
     "3 - Tags/networking.md",
     "6 - Main Notes/Web Enumeration.md",
     "6 - Main Notes/Basic Tools Cheatsheet.md",
-    "2 - Resources/Other Cybersecurity resources.md",
     "7 - Practice Notes",
     "6 - Main Notes/Assigned_PT_DRAFT.docx",
     "cpts role path/cpts role path",
