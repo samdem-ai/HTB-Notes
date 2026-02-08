@@ -11,10 +11,10 @@ Tags: [[windows]],[[cli]],[[cheatsheet]]
 
 ## Remote Access Commands
 
-| Command                                                                          | Description                                     |
-| -------------------------------------------------------------------------------- | ----------------------------------------------- |
-| `xfreerdp /v:<target-IP> /u:<username> /p:<password> /scale:140 /w:1920 /h:1200` | Initiate a RDP connection with the target host. |
-| `ssh <username>@<target-IP>`                                                     | Connect to target host via SSH.                 |
+| Command                                                                              | Description                                     |
+| ------------------------------------------------------------------------------------ | ----------------------------------------------- |
+| `xfreerdp /v:<target-IP> /u:<username> /p:<password> /dynamic-resolution /scale:140` | Initiate a RDP connection with the target host. |
+| `ssh <username>@<target-IP>`                                                         | Connect to target host via SSH.                 |
 
 > **Note:** When you see `|` specified in the commands below, it is saying to use the Pipe key (shift+backslash on US Keyboard layouts).
 

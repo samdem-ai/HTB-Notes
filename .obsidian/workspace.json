@@ -64,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Windows Event Logs.md",
+                "file": "6 - Main Notes/Windows Command Line Cheatsheet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -79,7 +79,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Windows Event Logs"
+              "title": "Windows Command Line Cheatsheet"
             }
           }
         ],
@@ -115,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "xfreerdp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,7 +136,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -204,17 +205,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6 - Main Notes/Windows Event Logs.md",
+                "file": "6 - Main Notes/Windows Command Line Cheatsheet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Windows Event Logs"
+              "title": "Outline of Windows Command Line Cheatsheet"
+            }
+          },
+          {
+            "id": "74689d3fde762b26",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -234,8 +245,8 @@
   },
   "active": "d6740b6cb0d6fcbe",
   "lastOpenFiles": [
-    "6 - Main Notes/Example of an incident Analysis and response report.md",
     "6 - Main Notes/Windows Event Logs.md",
+    "6 - Main Notes/Example of an incident Analysis and response report.md",
     "6 - Main Notes/Example Report (Simple linux).md",
     "6 - Main Notes/Enumeration Methodology.md",
     "3 - Tags/soc.md",
