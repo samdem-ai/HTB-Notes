@@ -3,7 +3,7 @@
 
 Status:
 
-Tags: [[networking]],[[traffic-analysis]]
+Tags: [[networking]],[[traffic-analysis]],[[cheatsheet]]
 
 
 # Network Traffic analysis cheatsheet
@@ -16,19 +16,19 @@ Keep in mind, unless you are utilizing root, `sudo` privileges will be required 
 
 ## Tcpdump
 
-|**Command**|**Description**|
-|---|---|
-|`tcpdump --version`|Prints the tcpdump and libpcap version strings then exits.|
-|`tcpdump -h`|Prints the help and usage information.|
-|`tcpdump -D`|Prints a list of usable network interfaces from which tcpdump can capture.|
-|`tcpdump -i (interface name or #)`|Executes tcpdump and utilizes the interface specified to capture on.|
-|`tcpdump -i (int) -w file.pcap`|Runs a capture on the specified interface and writes the output to a file.|
-|`tcpdump -r file.pcap`|TCPDump will read the output from a specified file.|
-|`tcpdump -r/-w file.pcap -l \|grep 'string'`|
-|`tcpdump -i (int) host (ip)`|TCPDump will start a capture on the interface specified at (int) and will only capture traffic originating from or destined to the IP address or hostname specified after `host`.|
-|`tcpdump -i (int) port (#)`|Will filter the capture for anything sourcing from or destined to port (#) and discard the rest.|
-|`tcpdump -i (int) proto (#)`|Will filter the capture for any protocol traffic matching the (#). For example, (6) would filter for any TCP traffic and discard the rest.|
-|`tcpdump -i (int) (proto name)`|Will utilize a protocols common name to filter the traffic captured. TCP/UDP/ICMP as examples.|
+| **Command**                                  | **Description**                                                                                                                                                                   |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `tcpdump --version`                          | Prints the tcpdump and libpcap version strings then exits.                                                                                                                        |
+| `tcpdump -h`                                 | Prints the help and usage information.                                                                                                                                            |
+| `tcpdump -D`                                 | Prints a list of usable network interfaces from which tcpdump can capture.                                                                                                        |
+| `tcpdump -i (interface name or #)`           | Executes tcpdump and utilizes the interface specified to capture on.                                                                                                              |
+| `tcpdump -i (int) -w file.pcap`              | Runs a capture on the specified interface and writes the output to a file.                                                                                                        |
+| `tcpdump -r file.pcap`                       | TCPDump will read the output from a specified file.                                                                                                                               |
+| `tcpdump -r/-w file.pcap -l \|grep 'string'` |                                                                                                                                                                                   |
+| `tcpdump -i (int) host (ip)`                 | TCPDump will start a capture on the interface specified at (int) and will only capture traffic originating from or destined to the IP address or hostname specified after `host`. |
+| `tcpdump -i (int) port (#)`                  | Will filter the capture for anything sourcing from or destined to port (#) and discard the rest.                                                                                  |
+| `tcpdump -i (int) proto (#)`                 | Will filter the capture for any protocol traffic matching the (#). For example, (6) would filter for any TCP traffic and discard the rest.                                        |
+| `tcpdump -i (int) (proto name)`              | Will utilize a protocols common name to filter the traffic captured. TCP/UDP/ICMP as examples.                                                                                    |
 
 ---
 
