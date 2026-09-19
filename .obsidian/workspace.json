@@ -64,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Attacking Services Cheatsheet.md",
+                "file": "6 - Main Notes/IMAP & POP3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -79,7 +79,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Attacking Services Cheatsheet"
+              "title": "IMAP & POP3"
             }
           },
           {
@@ -141,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ftp",
+                "query": "pop",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -259,8 +259,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b74c68d2af821660",
+  "active": "3cb90eb212a4496c",
   "lastOpenFiles": [
+    "6 - Main Notes/Attacking Services Cheatsheet.md",
+    "6 - Main Notes/Attacking FTP.md",
     "1 - Rough notes/crontabs files.md",
     "1 - Rough notes/brute force jwt secret.md",
     "2 - Resources/YouTube Channels.md",
@@ -286,8 +288,6 @@
     "6 - Main Notes/SMTP.md",
     "6 - Main Notes/SNMP.md",
     "6 - Main Notes/SMB.md",
-    "6 - Main Notes/Network Traffic analysis cheatsheet.md",
-    "3 - Tags/cheatsheet.md",
     "7 - Practice Notes",
     "6 - Main Notes/Assigned_PT_DRAFT.docx",
     "cpts role path/cpts role path",
