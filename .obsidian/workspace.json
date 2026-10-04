@@ -88,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Untitled.md",
+                "file": "6 - Main Notes/Basic Tools Cheatsheet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -103,7 +103,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Basic Tools Cheatsheet"
             }
           },
           {
@@ -165,7 +165,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gobuster",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,7 +186,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -277,7 +278,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -291,15 +293,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a590b1d6e79219a4",
+  "active": "aeaa52af0833693a",
   "lastOpenFiles": [
-    "6 - Main Notes/IMAP & POP3.md",
+    "6 - Main Notes/Host Discovery.md",
+    "6 - Main Notes/Enumeration Methodology.md",
+    "6 - Main Notes/Example Report (Simple linux).md",
+    "6 - Main Notes/Attacking FTP.md",
     "6 - Main Notes/Untitled.md",
+    "6 - Main Notes/IMAP & POP3.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas",
     "6 - Main Notes/Attacking Services Cheatsheet.md",
-    "6 - Main Notes/Attacking FTP.md",
     "1 - Rough notes/crontabs files.md",
     "1 - Rough notes/brute force jwt secret.md",
     "2 - Resources/YouTube Channels.md",
@@ -314,8 +319,6 @@
     "6 - Main Notes/Example of an incident Analysis and response report.md",
     "6 - Main Notes/Windows Command Line Cheatsheet.md",
     "6 - Main Notes/Windows Event Logs.md",
-    "6 - Main Notes/Example Report (Simple linux).md",
-    "6 - Main Notes/Enumeration Methodology.md",
     "3 - Tags/soc.md",
     "3 - Tags/incident-reponse.md",
     "6 - Main Notes/Protected File Transfers.md",
