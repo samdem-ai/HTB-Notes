@@ -83,6 +83,30 @@
             }
           },
           {
+            "id": "aeaa52af0833693a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6 - Main Notes/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
             "id": "d6740b6cb0d6fcbe",
             "type": "leaf",
             "state": {
@@ -107,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -141,7 +165,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pop",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,8 +186,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -238,14 +261,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "d60694afc2bced85",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,8 +291,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3cb90eb212a4496c",
+  "active": "a590b1d6e79219a4",
   "lastOpenFiles": [
+    "6 - Main Notes/IMAP & POP3.md",
+    "6 - Main Notes/Untitled.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
     "6 - Main Notes/Attacking Services Cheatsheet.md",
     "6 - Main Notes/Attacking FTP.md",
     "1 - Rough notes/crontabs files.md",
@@ -272,7 +309,6 @@
     "2 - Resources/Github Tools.md",
     "6 - Main Notes/Windows Security Fundamuntals.md",
     "6 - Main Notes/Untitled.base",
-    "6 - Main Notes/Untitled.md",
     "6 - Main Notes/Antak Webshell.md",
     "5 - Templates/Full Note.md",
     "6 - Main Notes/Example of an incident Analysis and response report.md",
@@ -286,8 +322,6 @@
     "6 - Main Notes/Pentesting Pre-Engagement.md",
     "6 - Main Notes/Public Exploits.md",
     "6 - Main Notes/SMTP.md",
-    "6 - Main Notes/SNMP.md",
-    "6 - Main Notes/SMB.md",
     "7 - Practice Notes",
     "6 - Main Notes/Assigned_PT_DRAFT.docx",
     "cpts role path/cpts role path",
@@ -296,8 +330,6 @@
     "2 - Resources",
     "cpts role path-20260204T115218Z-3-001/cpts role path",
     "cpts role path-20260204T115218Z-3-001",
-    "2 - Resources-20260204T115215Z-3-001/2 - Resources",
-    "Untitled 1.canvas",
-    "Untitled.canvas"
+    "2 - Resources-20260204T115215Z-3-001/2 - Resources"
   ]
 }
