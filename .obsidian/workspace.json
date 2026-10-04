@@ -88,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Web Enumeration.md",
+                "file": "1 - Rough notes/file upload bypass.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -103,7 +103,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Web Enumeration"
+              "title": "file upload bypass"
             }
           },
           {
@@ -165,7 +165,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ffuf",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,8 +186,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -295,6 +294,10 @@
   },
   "active": "aeaa52af0833693a",
   "lastOpenFiles": [
+    "1 - Rough notes/use and add ssh key.md",
+    "1 - Rough notes/windows.md",
+    "1 - Rough notes/web stuff.md",
+    "6 - Main Notes/Web Enumeration.md",
     "6 - Main Notes/Basic Tools Cheatsheet.md",
     "6 - Main Notes/Host Discovery.md",
     "6 - Main Notes/Enumeration Methodology.md",
@@ -321,10 +324,6 @@
     "6 - Main Notes/Windows Command Line Cheatsheet.md",
     "6 - Main Notes/Windows Event Logs.md",
     "3 - Tags/soc.md",
-    "3 - Tags/incident-reponse.md",
-    "6 - Main Notes/Protected File Transfers.md",
-    "6 - Main Notes/Pentesting Pre-Engagement.md",
-    "6 - Main Notes/Public Exploits.md",
     "7 - Practice Notes",
     "6 - Main Notes/Assigned_PT_DRAFT.docx",
     "cpts role path/cpts role path",
