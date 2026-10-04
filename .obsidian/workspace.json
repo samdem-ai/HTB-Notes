@@ -88,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6 - Main Notes/Basic Tools Cheatsheet.md",
+                "file": "6 - Main Notes/Web Enumeration.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -103,7 +103,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Basic Tools Cheatsheet"
+              "title": "Web Enumeration"
             }
           },
           {
@@ -165,7 +165,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gobuster",
+                "query": "ffuf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -295,6 +295,7 @@
   },
   "active": "aeaa52af0833693a",
   "lastOpenFiles": [
+    "6 - Main Notes/Basic Tools Cheatsheet.md",
     "6 - Main Notes/Host Discovery.md",
     "6 - Main Notes/Enumeration Methodology.md",
     "6 - Main Notes/Example Report (Simple linux).md",
@@ -324,7 +325,6 @@
     "6 - Main Notes/Protected File Transfers.md",
     "6 - Main Notes/Pentesting Pre-Engagement.md",
     "6 - Main Notes/Public Exploits.md",
-    "6 - Main Notes/SMTP.md",
     "7 - Practice Notes",
     "6 - Main Notes/Assigned_PT_DRAFT.docx",
     "cpts role path/cpts role path",

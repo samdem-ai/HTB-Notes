@@ -24,6 +24,7 @@ Web Enumeration
 
 ```shell-session
 samdem@htb[/htb]$ gobuster dir -u http://10.10.10.121/ -w /usr/share/seclists/Discovery/Web-Content/common.txt
+ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/bitquark-subdomainstop100000.txt:FFUZ -u http://nexus.htb/ -H "Host: FUZZ.nexus.htb" -fw 4
 
 ===============================================================
 Gobuster v3.0.1
