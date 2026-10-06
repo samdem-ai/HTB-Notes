@@ -88,7 +88,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Rough notes/file upload bypass.md",
+                "file": "6 - Main Notes/Infrastructure & Host Enumeration — Cheat Sheet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -103,7 +103,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "file upload bypass"
+              "title": "Infrastructure & Host Enumeration — Cheat Sheet"
             }
           },
           {
@@ -165,7 +165,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nfs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -186,7 +186,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -294,6 +295,7 @@
   },
   "active": "aeaa52af0833693a",
   "lastOpenFiles": [
+    "1 - Rough notes/file upload bypass.md",
     "1 - Rough notes/use and add ssh key.md",
     "1 - Rough notes/windows.md",
     "1 - Rough notes/web stuff.md",
@@ -323,7 +325,6 @@
     "6 - Main Notes/Example of an incident Analysis and response report.md",
     "6 - Main Notes/Windows Command Line Cheatsheet.md",
     "6 - Main Notes/Windows Event Logs.md",
-    "3 - Tags/soc.md",
     "7 - Practice Notes",
     "6 - Main Notes/Assigned_PT_DRAFT.docx",
     "cpts role path/cpts role path",
